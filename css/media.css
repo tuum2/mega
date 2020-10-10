@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+
+/*media (max-width:1290px)*/
+
+@media (max-width:1290px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .nav ul li {
+        width: 93px;
+    }
+
+    .nav ul li a {
+        font-size: 14px;
+        padding: 16px 10px;
+    }
+
+    .sb {
+        display: none;
+    }
+
+    .slider .swiper-slide h2,
+    .slider .swiper-slide p {
+        padding-left: 20px;
+    }
+}
+
+
+/*media (max-width:1024px)*/
+
+@media (max-width:1024px) {
+    .header h1 {
+        float: none;
+        text-align: center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header h1 strong {
+        left: 30px;
+    }
+
+    #mNav {
+        display: block;
+    }
+
+    .banner_menu .bm_left {
+        display: none;
+    }
+
+    .banner_menu .bm_right ul:first-child {
+        display: none;
+    }
+
+    .slider .ss1,
+    .slider .ss2,
+    .slider .ss3 {
+        background-position: 70% center;
+    }
+}
+
+
+/*media (max-width:960px)*/
+
+@media (max-width:960px) {
+
+    .slider {
+        height: 500px;
+    }
+
+    .slider .swiper-slide h2 {
+        margin-top: 180px;
+        font-size: 37px;
+        line-height: 37px
+    }
+
+    .slider .swiper-slide h2 em {
+        font-size: 30px;
+    }
+
+    ..slider .swiper-slide p {
+        font-size: 26px;
+    }
+
+    .slider .swiper-slide h2::after {
+        bottom: -12px;
+    }
+
+
+
+}
+
+
+
+/*media (max-width:768px)*/
+
+
+@media (max-width:768px) {
+    .row {
+        padding: 0 16px;
+    }
+
+    .header h1 strong {
+        display: none;
+    }
+
+    .header h1 {
+        text-align: left;
+    }
+}
+
+
+
+
+/*media (max-width:600px)*/
+
+
+@media (max-width:600px) {
+
+    .slider {
+        height: 400px;
+    }
+
+    .bm_right {
+        transform: scale(0.9);
+        position: absolute;
+        right: -23px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+
+
+
+@media (max-width:320px) {}
+
+/*media (max-width:320px)*/
+
+
+
+/* 아이콘 이미지 최적화 작업 (스프라이츠) */
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+       only screen and (min-device-pixel-ratio:1.5),
+       only screen and (min-resolution:1.5dppx) {
+        
+           .icon{
+               background-image: url(../images/icon@2.png);
+               background-size:500px;
+           } 
+}
+
